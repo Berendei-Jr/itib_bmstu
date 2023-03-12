@@ -12,7 +12,6 @@ parser.add_argument('--n', type=float, metavar='float', default = 0.3, help='Lea
 parser.add_argument('--size', type=int, metavar='int', default = 16, help='Minimum test set size')
 args = parser.parse_args()
 
-
 def generate_truth_table(func) -> list:
     table = []
     for x1 in range(2):
